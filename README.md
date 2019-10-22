@@ -1,6 +1,12 @@
 # docassemble-blawx
 A module for connecting Docassemble interviews to Blawx.com
 
+## Alpha Software
+Blawx.com and the Blawx.com Reasoner are currently free-to-use alpha-version software.
+They should not be used for production purposes. The functionality of Blawx.com and
+the Blawx.com reasoner may change over time without notice. Code generated in earlier
+versions of the Alpha software may not work in later versions. Use at your own risk.
+
 ## Installation
 Go into the packages section of your docassemble server and enter the github address for
 this package.  See the [docassemble documentation](https://docassemble.org/docs)
@@ -55,7 +61,7 @@ If the query is a yes/no query, only 'main' will be returned. If the query is a 
 and no results are returned, only 'main' will be returned with a value of 'No'.
 If it is a search and there are results, 'main' and 'answers' will be included.
 
-  
+## More Info
+See the [Learn section on Blawx.com](https://www.blawx.com/learn) for more details.
 
-See the Blawx.com documentation for more information on how to write Blawx code that is
-able.
+Blawx also has a public [Slack server](https://blawx.slack.com).
